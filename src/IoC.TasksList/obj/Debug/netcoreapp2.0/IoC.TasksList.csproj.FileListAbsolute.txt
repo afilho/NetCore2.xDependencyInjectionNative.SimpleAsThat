@@ -1,0 +1,22 @@
+c:\users\antonio filho\source\repos\IoC.TasksList\IoC.TasksList\bin\Debug\netcoreapp2.0\IoC.TasksList.deps.json
+c:\users\antonio filho\source\repos\IoC.TasksList\IoC.TasksList\bin\Debug\netcoreapp2.0\IoC.TasksList.runtimeconfig.json
+c:\users\antonio filho\source\repos\IoC.TasksList\IoC.TasksList\bin\Debug\netcoreapp2.0\IoC.TasksList.runtimeconfig.dev.json
+c:\users\antonio filho\source\repos\IoC.TasksList\IoC.TasksList\bin\Debug\netcoreapp2.0\IoC.TasksList.dll
+c:\users\antonio filho\source\repos\IoC.TasksList\IoC.TasksList\obj\Debug\netcoreapp2.0\IoC.TasksList.csprojAssemblyReference.cache
+c:\users\antonio filho\source\repos\IoC.TasksList\IoC.TasksList\obj\Debug\netcoreapp2.0\IoC.TasksList.csproj.CoreCompileInputs.cache
+c:\users\antonio filho\source\repos\IoC.TasksList\IoC.TasksList\obj\Debug\netcoreapp2.0\IoC.TasksList.AssemblyInfoInputs.cache
+c:\users\antonio filho\source\repos\IoC.TasksList\IoC.TasksList\obj\Debug\netcoreapp2.0\IoC.TasksList.AssemblyInfo.cs
+c:\users\antonio filho\source\repos\IoC.TasksList\IoC.TasksList\bin\Debug\netcoreapp2.0\IoC.TasksList.pdb
+c:\users\antonio filho\source\repos\IoC.TasksList\IoC.TasksList\obj\Debug\netcoreapp2.0\IoC.TasksList.dll
+c:\users\antonio filho\source\repos\IoC.TasksList\IoC.TasksList\obj\Debug\netcoreapp2.0\IoC.TasksList.pdb
+C:\git\NetCore2.xDependencyInjectionNative.SimpleAsThat\src\IoC.TasksList\bin\Debug\netcoreapp2.0\IoC.TasksList.deps.json
+C:\git\NetCore2.xDependencyInjectionNative.SimpleAsThat\src\IoC.TasksList\bin\Debug\netcoreapp2.0\IoC.TasksList.runtimeconfig.json
+C:\git\NetCore2.xDependencyInjectionNative.SimpleAsThat\src\IoC.TasksList\bin\Debug\netcoreapp2.0\IoC.TasksList.runtimeconfig.dev.json
+C:\git\NetCore2.xDependencyInjectionNative.SimpleAsThat\src\IoC.TasksList\bin\Debug\netcoreapp2.0\IoC.TasksList.dll
+C:\git\NetCore2.xDependencyInjectionNative.SimpleAsThat\src\IoC.TasksList\bin\Debug\netcoreapp2.0\IoC.TasksList.pdb
+C:\git\NetCore2.xDependencyInjectionNative.SimpleAsThat\src\IoC.TasksList\obj\Debug\netcoreapp2.0\IoC.TasksList.csprojAssemblyReference.cache
+C:\git\NetCore2.xDependencyInjectionNative.SimpleAsThat\src\IoC.TasksList\obj\Debug\netcoreapp2.0\IoC.TasksList.csproj.CoreCompileInputs.cache
+C:\git\NetCore2.xDependencyInjectionNative.SimpleAsThat\src\IoC.TasksList\obj\Debug\netcoreapp2.0\IoC.TasksList.AssemblyInfoInputs.cache
+C:\git\NetCore2.xDependencyInjectionNative.SimpleAsThat\src\IoC.TasksList\obj\Debug\netcoreapp2.0\IoC.TasksList.AssemblyInfo.cs
+C:\git\NetCore2.xDependencyInjectionNative.SimpleAsThat\src\IoC.TasksList\obj\Debug\netcoreapp2.0\IoC.TasksList.dll
+C:\git\NetCore2.xDependencyInjectionNative.SimpleAsThat\src\IoC.TasksList\obj\Debug\netcoreapp2.0\IoC.TasksList.pdb

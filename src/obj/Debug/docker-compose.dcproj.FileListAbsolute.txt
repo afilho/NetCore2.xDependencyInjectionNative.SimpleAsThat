@@ -1,0 +1,2 @@
+c:\users\antonio filho\source\repos\IoC.TasksList\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\git\NetCore2.xDependencyInjectionNative.SimpleAsThat\src\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
