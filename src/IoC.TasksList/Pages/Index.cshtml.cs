@@ -1,5 +1,6 @@
 ﻿using IoC.TasksList.Interfaces;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.Extensions.Configuration;
 
 namespace IoC.TasksList.Pages
 {
@@ -7,8 +8,9 @@ namespace IoC.TasksList.Pages
     {
         private ITaskService _taskService;
 
-        public IndexModel(ITaskService taskService)
+        public IndexModel(IConfiguration configuration, ITaskService taskService)
         {
+
             _taskService = taskService;
         }
 
@@ -16,6 +18,8 @@ namespace IoC.TasksList.Pages
         {
             int i = 1;
             ViewData.Add("iValue", _taskService.Plus(i, 10));
+
+            ViewData.Add("items", _taskService.GetAll());
         }
     }
 }

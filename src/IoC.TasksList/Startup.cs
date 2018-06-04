@@ -1,9 +1,13 @@
 using IoC.TasksList.Interfaces;
 using IoC.TasksList.Models;
+using IoC.TasksList.Repository;
+using IoC.TasksList.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using System.Data;
+using System.Data.SqlClient;
 
 namespace IoC.TasksList
 {
@@ -14,7 +18,7 @@ namespace IoC.TasksList
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
-        }        
+        }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
@@ -30,7 +34,7 @@ namespace IoC.TasksList
         {
             if (env.IsDevelopment())
             {
-                app.UseBrowserLink();
+                //app.UseBrowserLink();                
                 app.UseDeveloperExceptionPage();
             }
             else
@@ -46,6 +50,16 @@ namespace IoC.TasksList
         private void DependecyResolve(IServiceCollection services)
         {
             services.AddTransient<ITaskService, TaskService>();
+            services.AddScoped<IRepository<TaskModel>, TaskRepository>();
+            services.AddScoped<IDbConnection>(e =>
+            {
+                string connStr = this.Configuration.GetSection("Config:TaskDb:ConnectionString").Get<string>();
+                return new SqlConnection(connStr);
+            });
+            services.AddSingleton<IConfiguration>(e =>
+            {
+                return this.Configuration;
+            });
         }
     }
 }

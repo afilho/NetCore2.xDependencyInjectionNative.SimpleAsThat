@@ -4,9 +4,43 @@
     ViewData["Title"] = "Home page";
 }
 
-<hr />
+<style>
+    td {
+        padding: 5px;
+        text-align: center;
+        width: 33%;
+    }
+</style>
+
+<h2>TESTE 1</h2>
 <div class="row">
     <div class="col-md-6">
         <b>Assert equals 11:</b>&nbsp;@ViewData["iValue"]
+    </div>
+</div>
+
+<h2>TESTE 2</h2>
+<div class="row">
+    <div class="col-md-12">
+        <table class="table table-bordered table-hover">
+            <thead>
+                <tr>
+                    <td>ID</td>
+                    <td>TASK</td>
+                    <td>DATA INCLUSÃO</td>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (Models.TaskModel item in 
+                    ViewData["items"] as IEnumerable<Models.TaskModel>)
+                {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Task</td>
+                    <td>@item.DataInclusao</td>
+                </tr>
+                }
+            </tbody>
+        </table>
     </div>
 </div>
