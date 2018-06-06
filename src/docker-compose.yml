@@ -6,3 +6,5 @@ services:
     build:
       context: .
       dockerfile: IoC.TasksList/Dockerfile
+    extra_hosts:
+      - "ANTONIOFILHO:172.25.251.113"

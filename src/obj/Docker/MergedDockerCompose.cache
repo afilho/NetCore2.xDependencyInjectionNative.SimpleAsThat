@@ -5,6 +5,8 @@ services:
       dockerfile: IoC.TasksList/Dockerfile
     environment:
       ASPNETCORE_ENVIRONMENT: Development
+    extra_hosts:
+      ANTONIOFILHO: 172.25.251.113
     image: ioctaskslist
     ports:
     - target: 80
